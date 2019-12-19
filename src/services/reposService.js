@@ -7,5 +7,5 @@ export const getRepos = () => {
 };
 
 export const getSingleRepo = name => {
-  return http.get(`${singleRepo}/${user}${name}`);
+  return http.get(`${singleRepo}${user}/${name}`);
 };
