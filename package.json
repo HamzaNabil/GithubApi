@@ -29,7 +29,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "webpack": "webpack --mode production",
-    "webpack-dev": "set PORT=3006 && react-scripts start && webpack-dev-server --mode development --open"
+    "webpack-dev": "set PORT=3007 && react-scripts start && webpack-dev-server --mode development --open"
   },
   "eslintConfig": {
     "extends": "react-app"

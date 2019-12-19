@@ -6,9 +6,9 @@ export const accessTokenUrl = "https://github.com/login/oauth/access_token";
 
 export const userApi = "https://api.github.com/user";
 
-export const repos = "https://api.github.com/users/HamzaNabil/repos";
+export const repos = "https://api.github.com/users/"; // HamzaNabil/repos
 
-export const singleRepo = "https://api.github.com/repos/HamzaNabil";
+export const singleRepo = "https://api.github.com/repos/";
 
 export const renderLoader = () => {
   return (

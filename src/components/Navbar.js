@@ -1,6 +1,9 @@
 import React, { Component } from "react";
 import { NavLink, Link } from "react-router-dom";
 class Navbar extends Component {
+  state = {
+    name: ""
+  };
   render() {
     const { user } = this.props;
     return (
